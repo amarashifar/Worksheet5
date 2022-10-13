@@ -1,0 +1,1010 @@
+   29  touch test.txt
+   30  ls
+   31  cal
+   32  who
+   33  man
+   34  cd A1/
+   35  vi a1.txt 
+   36  ls   [A-Z]
+   37  ls [AZ}
+   38  ls [AZ]
+   39  display pwd
+   40  ls [AZ]
+   41  ls A...Z
+   42  display [AZ]
+   43  display --hwlp
+   44  display --help
+   45  echo $HOME
+   46  cd ~
+   47  time sort *.txt
+   48  mkdir del
+   49  cd del/
+   50  touch a2.txt
+   51  touch asdj
+   52  touch idfowie
+   53  cd 
+   54  cd del/
+   55  mkdir 4
+   56  cd
+   57  rm -rf del/
+   58  ls
+   59  cd A1/
+   60  ls
+   61  rm -i test.txt 
+   62  ls
+   63  cd A2/
+   64  ls
+   65  rm -r *.tsv
+   66  ls
+   67  cat a0.txt 
+   68  ls
+   69  a1.txt >> a0.txt
+   70  cat a1.txt >> a0.txt 
+   71  nano a0.txt 
+   72  cat a2.txt >> a0.txt 
+   73  cat a3.txt >> a0.txt 
+   74  cat a5.txt >> a0.txt 
+   75  cat a6.txt >> a0.txt 
+   76  cat a7.txt >> a0.txt 
+   77  cat a8.txt >> a0.txt 
+   78  git add -A
+   79  git commit -m "final changes"
+   80  git push
+   81  history
+   82  git pull
+   83  ls
+   84  cp a0.txt /home/amirali/Worksheet1/
+   85  ls
+   86  mv a0.txt sdihfi.txt
+   87  ls
+   88  cat sdihfi.txt 
+   89  ls
+   90  rm a?.txt
+   91  ls
+   92  mv sdihfi.txt a2.txt
+   93  ls
+   94  git add -A
+   95  git commit -m "final changes"
+   96  git push
+   97  exit
+   98  tmux attach -t homework
+   99  tmux new-session -s homework
+  100  w
+  101  clear
+  102  tmux kill-sesseion -t homework
+  103  tmux kill-session -t homework
+  104  clear
+  105  tmux ls
+  106  tmux kill-session -t 0
+  107  clear
+  108  du
+  109  du -sh
+  110  ls
+  111  cd PRODUCTS/
+  112  ls
+  113  ckear
+  114  cd
+  115  clear
+  116  mkdir A3
+  117  ls
+  118  history
+  119  clear
+  120  tmux new-session -s homework
+  121  tmux --version
+  122  tmux
+  123  tmux ls
+  124  w
+  125  CLEAR
+  126  clear
+  127  q
+  128  git clone -b branch-5-4-stable git://git.code.sf.net/p/gnuplot/gnuplot-main
+  129  ls
+  130  cd gnuplot-main/
+  131  ls
+  132  cd
+  133  clear
+  134  exit
+  135  clear
+  136  ls
+  137  cd Worksheet2
+  138  ls
+  139  cat count.txt 
+  140  cd 
+  141  cat Worksheet1/
+  142  cd Worksheet1/
+  143  ls
+  144  cat a0.txt 
+  145  clear
+  146  cd 
+  147  ls
+  148  cd gnuplot-5.4.4 ; ./configure ; make
+  149  ls
+  150  crm gnuplot-
+  151  cd gnuplot-main/
+  152  ls
+  153  cd src/
+  154  ls
+  155  cd
+  156  clear
+  157  ls
+  158  cd gnuplot-main/
+  159  ls
+  160  cd demo/
+  161  ls
+  162  cd m4`
+  163  cd 
+  164  rm gnuplot-
+  165  rm gnuplot-main/
+  166  rmdir -r -f -rm gnuplot-main/
+  167  rm -r -f -rm gnuplot-
+  168  rm -r -f -rm gnuplot-main/
+  169  rmdir -f gnuplot-main/
+  170  rmdir -rf gnuplot-main/
+  171  cleaer
+  172  clear
+  173  rm -rf gnuplot-
+  174  rm -rf gnuplot-main/
+  175  ls
+  176  tar zxvf gnuplot-5.4.5.tar.gz 
+  177  clear
+  178  ls
+  179  cd gnuplot-5.4.5/
+  180  make check
+  181  cd gnuplot-5.4.4 ; ./configure ; make
+  182  make check
+  183  cd src/
+  184  set terminal svg
+  185  ls
+  186  set terminal svg :set output filename.svg
+  187  set terminal svg ;set output filename.svg
+  188  plot exp(-x**2 /2)
+  189  plot exp(-x**2 / 2)
+  190  plot exp( -x**2 / 2)
+  191  cd
+  192  cd gnuplot-5.4.5/
+  193  cd src ; ./gnuplit
+  194  cd src ; ./gnuplot
+  195  clear
+  196  cd
+  197  dnf install gcc ; sudo yum install make
+  198  cd gnuplot-5.4.5/
+  199  ./configure --disable-dependency-tracking
+  200  makes
+  201  make
+  202  make check
+  203  gnuplot
+  204  clear
+  205  cp /home/test/A1/downloaded_tweets_extend_original_nolf2.tsv 
+  206  cp /home/test/A1/downloaded_tweets_extend_original_nolf2.tsv A3
+  207  ls
+  208  cd A3/
+  209  ls
+  210  cd
+  211  cp /home/test/A1/downloaded_tweets_extend_nolf2.tsv A3
+  212  awk -F"\t" '($2 != $6) {print $0}' downloaded_tweets_extend_original_nolf2.tsv > downloaded_tweets_extend_original_nolf2_NOBOT.tsv
+  213  cd A3/
+  214  awk -F"\t" '($2 != $6) {print $0}' downloaded_tweets_extend_original_nolf2.tsv > downloaded_tweets_extend_original_nolf2_NOBOT.tsv
+  215  rm downloaded_tweets_extend_original_nolf2.tsv 
+  216  awk -F"\t" '($2 != $6) {print $0}' downloaded_tweets_extend_original_nolf2.tsv > downloaded_tweets_extend_nolf2_NOBOT.tsv
+  217  awk -F"\t" '($2 != $6) {print $0}' downloaded_tweets_extend_nolf2.tsv > downloaded_tweets_extend_nolf2_NOBOT.tsv
+  218  ls
+  219  rm downloaded_tweets_extend_nolf2.tsv 
+  220  ls
+  221  clear
+  222  ls
+  223  cd gnuplot-5.4.5/
+  224  ls
+  225  cd src/
+  226  ls
+  227  display *.svg
+  228  exit
+  229  cd gnuplot-5.4.5/src/
+  230  display *.svg
+  231  display ws5.svg
+  232  clear
+  233  cd
+  234  ls
+  235  cd gnuplot-5.4.5/
+  236  ls
+  237  cd
+  238  cd PRODUCTS/
+  239  ls
+  240  sed productID.txt 
+  241  sed -e productID.txt 
+  242  c;ear
+  243  clear
+  244  ls
+  245  rm ws5.svg 
+  246  ls
+  247  rmdir CUSTOMERS/
+  248  cd A3/
+  249  ls
+  250  cd
+  251  rm downloaded_tweets_extend_original_nolf2_NOBOT.tsv 
+  252  cd A
+  253  cd A3/
+  254  ll
+  255  ls
+  256  clear
+  257  ll
+  258  w
+  259  l
+  260  clear
+  261  clear
+  262  cd A3
+  263  ls
+  264  clear
+  265  history
+  266  fgrep 12070100 amazon
+  267  clear
+  268  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 1,6
+  269  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 1,6 | sort | uniq | sort -nr
+  270  clear
+  271  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 1,6 | sort | uniq | sort -nr
+  272  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 1,6 | sort | uniq | sort -nr > replied.cs
+  273  ls
+  274  awk '{print $2}' replied.csv | uniq -c | sort -k 2n| awk '{ if ($2 >= 3){print}}'
+  275  awk '{print $2}' replied.csv | uniq -c | sort -k 2n| awk '{ if ($2 >= 3){print}}' > secondstep.csv
+  276  cat secondstep.csv 
+  277  exig
+  278  exit
+  279  tmux attach -t homework
+  280  clear
+  281  tmux ;s
+  282  tmux ls
+  283  ,
+  284  tmux ls
+  285  clear
+  286  b
+  287  ,
+  288  clear
+  289  tmux ls
+  290  ,
+  291  clear
+  292  tmux new-session -s homework
+  293  cd A3/
+  294  ls
+  295  head replied.csv 
+  296  cat secondstep.csv 
+  297  history
+  298  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut 1,6 | sort | uniq -c | sort -nr > secondstep.csv
+  299  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f  1,6 | sort | uniq -c | sort -nr > secondstep.csv
+  300  head secondstep.csv 
+  301  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f  1,6 | sort | uniq -c > secondstep.csv
+  302  head secondstep.csv 
+  303  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f  6,1 | sort | uniq -c > secondstep.csv
+  304  head secondstep.csv 
+  305  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f  6,1 | sort  > secondstep.csv
+  306  head secondstep.csv 
+  307  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f  6,1   > secondstep.csv
+  308  head secondstep.csv 
+  309  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f  6,1 |  > secondstep.csv
+  310  sort -nk4 secondstep.csv 
+  311  head secondstep.csv 
+  312  cat secondstep.csv 
+  313  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 1, 6 | sort -k 2 -n  > secondstep.csv
+  314  head secondstep.csv 
+  315  cat secondstep.csv 
+  316  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 1, 6  
+  317  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 1,6  
+  318  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 1,6  | sort -k 6 -n
+  319  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv |  sort -k 6 -n | 
+  320  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv |  sort -k 6 -n 
+  321  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv |  sort -k 6 -n | cut -f 6
+  322  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | awk '{print$6}' | sort | uniq -c | sort -k 6 -n
+  323  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6 | sort | uniq -c | sort -k 6 -n
+  324  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6,1 > secondstep.csv 
+  325  head secondstep.csv 
+  326  sort -k 2 -n secondstep.csv 
+  327  awk ' { t = $1; $1 = $2; $2 = t; print; } ' secondstep.csv 
+  328  rm secondstep.csv 
+  329  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6,1 > secondstep.csv 
+  330  sort -k 2 -n secondstep.csv 
+  331  clear
+  332  ls
+  333  cd A3/
+  334  ls
+  335  head secondstep.csv 
+  336  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 1,6 | sort -k 2 -n
+  337  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 1,6 | sort -k 2 -n > secondstep.csv 
+  338  awk -F, 'BEGIN{OFS=FS;}{t=$i;$i=$j;$j=t;}1' i=1 j=2 secondstep.csv 
+  339  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 1,6 | sort -k 2 -n > secondstep.csv 
+  340  head secondstep.csv 
+  341  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | awk '{print $6, $1}' > secondstep.csv 
+  342  cat secondstep.csv 
+  343  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 1,6 | sort -k 2 -n > secondstep.csv 
+  344  ls
+  345  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6 | sort -k 2 -n > secondstep.csv 
+  346  head secondstep.csv 
+  347  cat secondstep.csv 
+  348  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 1,6 | sort -k 2 -n > secondstep.csv 
+  349  cat secondstep.csv 
+  350  cut -f 2 secondstep.csv > cuttedfiles.csv
+  351  cat cuttedfiles.csv 
+  352  cut -f 1 secondstep.csv > firstLine.csv
+  353  ls
+  354  paste -d cuttedfiles.csv firstLine.csv 
+  355  paste -d cuttedfiles.csv firstLine.csv > final.csv
+  356  head final.csv 
+  357  head cuttedfiles.csv 
+  358  head fu
+  359  head fi
+  360  head firstLine.csv 
+  361  paste  -d , cuttedfiles.csv firstLine.csv 
+  362  paste  -d , cuttedfiles.csv firstLine.csv > final.csv 
+  363  head final.csv 
+  364  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 1,6 | sort -k 2 -n > secondstep.csv 
+  365  head secondstep.csv 
+  366  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6,1 | sort -k 2 -n > secondstep.csv 
+  367  head secondstep.csv 
+  368  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | sort -k 6 n | cut -f 6,1 > secondstep.csv 
+  369  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | sort -k 6 -n | cut -f 6,1 > secondstep.csv 
+  370  head secondstep.csv 
+  371  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6,1 | sort -k 2 -n > secondstep.csv 
+  372  head secondstep.csv 
+  373  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6,1 | sort -k 2 -n > secondstep.csv 
+  374  head secondstep.csv 
+  375  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6,1 | sort -k 2 -n > secondstep.csv 
+  376  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2,6  | sort -k 2 -n | awk ' { t = $1; $1 = $2; $2 = t; print; } '> DirectionalInfluence.tsv 
+  377  head DirectionalInfluence.tsv 
+  378  script a3.txt
+  379  script a3.txt 
+  380  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6,1 | sort -k 2 -n > secondstep.csv 
+  381  script a3.txt
+  382  script a3.txt 
+  383  exit
+  384  ls
+  385  cd A3/
+  386  ls
+  387  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6,1 | sort -k 2 -n > secondstep.csv 
+  388  cat secondstep.csv 
+  389  awk ' { t = $1; $1 = $2; $2 = t; print; } ' input_file
+  390  awk ' { t = $1; $1 = $2; $2 = t; print; } ' secondstep.csv 
+  391  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6,1 | sort -k 2 -n | awk ' { t = $1; $1 = $2; $2 = t; print; } '
+  392  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6,1 | sort -k 2 -n | awk ' { t = $1; $1 = $2; $2 = t; print; } '> finalfile.csv
+  393  cat final
+  394  cat finalfile.csv 
+  395  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6,1 | sort -k 2 -n > print.csv
+  396  cat print.csv 
+  397  cd
+  398  history
+  399  cp /home/test/A1/cp /home/test/A1/downloaded_tweets_extend_original_nolf2.ts
+  400  cp /home/test/A1/downloaded_tweets_extend_original_nolf2.tsv A3
+  401  cp /home/test/A1/downloaded_tweets_extend_nolf2.tsv A3
+  402  ls
+  403  cd A3/
+  404  ls
+  405  grep "replied_to" downloaded_tweets_extend_original_nolf2.tsv | cut -f 6,1 | sort -k 2 -n 
+  406  grep "replied_to" downloaded_tweets_extend_original_nolf2.tsv | cut -f 6,1 
+  407  clear
+  408  grep "replied_to" downloaded_tweets_extend_original_nolf2.tsv | cut -f 6,1 
+  409  grep "replied_to" downloaded_tweets_extend_original_nolf2.tsv | cut -f 6,1 | sort | sort -k 2 -n | awk ' { t = $1; $1 = $2; $2 = t; print; } '
+  410  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6,1 | sort | sort -k 2 -n | awk ' { t = $1; $1 = $2; $2 = t; print; } '
+  411  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 1,6 | sort | sort -k 2 -n | awk ' { t = $1; $1 = $2; $2 = t; print; } '
+  412  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 1,6 |sort -k 2 -n 
+  413  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 1,6 | sort 
+  414  grep "repliedto" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 1,6 | sort -k 2 | sort -n
+  415  grep "repliedto" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 1,6 | sort -k 2 -n
+  416  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 1,6 | sort -k 2 -n
+  417  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 1,6 | sort -k 2 -n | awk ' { t = $1; $1 = $2; $2 = t; print; } '
+  418  ls
+  419  rm *.csv
+  420  ls
+  421  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 1,6 | sort -k 2 -n | awk ' { t = $1; $1 = $2; $2 = t; print; } '
+  422  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2,6 | sort -k 2 -n | awk ' { t = $1; $1 = $2; $2 = t; print; } '
+  423  tmux new-session -s homework
+  424  clear
+  425  ls
+  426  cat DirectionalInfluence.tsv 
+  427  awk '{print $1}' DirectionalInfluence.tsv 
+  428  awk '{print $1}' DirectionalInfluence.tsv | head -n 10
+  429  awk '{print $2}' DirectionalInfluence.tsv | head -n 10
+  430  clear
+  431  cut -f 1 DirectionalInfluence.tsv 
+  432  cut -f 1 DirectionalInfluence.tsv | wc -c
+  433  cut -f 1 DirectionalInfluence.tsv | wc -c | uniq -c
+  434  wc -c DirectionalInfluence.tsv | uniq -c 
+  435  sort -nr DirectionalInfluence.tsv | uniq -c
+  436  cut -f 1 DirectionalInfluence.tsv | uniq -c
+  437  cut -f 1 DirectionalInfluence.tsv | uniq -c | wc -c
+  438  awk '{print $1}' replies_data.csv | uniq -c | sort -k 1n | awk '{ if ($1 >= 3) {print} }'
+  439  awk '{print $1}' DirectionalInfluence.t
+  440  cat DirectionalInfluence.tsv | uniq -c | sort -k 1 -n |
+  441  cat DirectionalInfluence.tsv | uniq -c | sort -k 1 -n 
+  442  awk '{print $1}' DirectionalInfluence.tsv
+  443  awk '{print $1}' DirectionalInfluence.tsv | sort | uniq -c
+  444  awk '{print $1}' DirectionalInfluence.tsv | sort | uniq -c | sort -n
+  445   DirectionalInfluence.tsv | sort | uniq -c | sort -nr 
+  446  awk '{print $1}' DirectionalInfluence.tsv | sort | uniq -c | sort -n | awk '{ if ($1 >= 3) {print} }'
+  447  awk '{print $1}' DirectionalInfluence.tsv | sort | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }'
+  448  awk '{print $1}' DirectionalInfluence.tsv | sort | uniq -c | sort -nr | awk '{ if ($1 >= 5) {print} }' | wc -c
+  449  awk '{print $1}' DirectionalInfluence.tsv | sort | uniq -c | sort -nr | awk '{ if ($1 >= 5) {print} }' | wc -l
+  450  awk '{print $1}' DirectionalInfluence.tsv | sort | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }' | wc -l
+  451  awk '{print $1}' DirectionalInfluence.tsv | sort | uniq -c | sort -nr | awk '{ if ($1 >= 2) {print} }' | wc -l
+  452  cut -f 1 DirectionalInfluence.tsv | sort | uniq -c | sort -nr | awk '{ if ($1 >= 2) {print} }' | wc -l
+  453  cut -f 1 DirectionalInfluence.tsv | sort | uniq -c | sort -nr | awk '{ if ($1 >= 2) {print} }' 
+  454  cut -f 1 DirectionalInfluence.tsv | sort -k 1| uniq -c | sort -nr | awk '{ if ($1 >=3) {print} }' 
+  455  head DirectionalInfluence.tsv 
+  456  cut -f 1 DirectionalInfluence.tsv | sort -k 1| uniq -c | sort -nr | awk '{ if ($1 >=3) {print} }' | wc -l
+  457  cut -f 1 DirectionalInfluence.tsv | sort -k 1| uniq -c | sort -nr | awk '{ if ($1 >=2) {print} }' | wc -l
+  458  cut -f 1 DirectionalInfluence.tsv | sort -k 1| uniq -c | sort -nr | awk '{ if ($1 >=5) {print} }' | wc -l
+  459  cut -f 1 DirectionalInfluence.tsv | sort -k 1| uniq -c |  awk '{ if ($1 >=3) {print} }' 
+  460  cut -f 1 DirectionalInfluence.tsv | sort -k 1| uniq -c | sort -nr | awk '{ if ($1 >=5) {print} }' | wc -l
+  461  cut -f 1 DirectionalInfluence.tsv | sort -k 1| uniq -c | sort -nr | awk '{ if ($1 >=5) {print} }'
+  462  mv DirectionalInfluence.tsv sub_set_graph.tsv
+  463  ;s
+  464  ls
+  465  cut -f 1 sub_set_graph.tsv | sort -k 1| uniq -c | sort -nr | awk '{ if ($1 >=5) {print} }'
+  466  cut -f 1 sub_set_graph.tsv | sort -k 1| uniq -c | sort -nr | awk '{ if ($1 > 2) {print} }'
+  467  cut -f 1 sub_set_graph.tsv | sort -k 1| uniq -c | sort -nr | awk '{ if ($1 > 2) {print} }' | wc -l
+  468  cut -f 1 sub_set_graph.tsv | sort -k 1| uniq -c | sort -nr | awk '{ if ($1 > 0) {print} }' | wc -l
+  469  cut -f 1 sub_set_graph.tsv | sort -k 1| uniq -c | sort -nr | awk '{ if ($1 >= 1) {print} }' | wc -l
+  470  cut -f 1 sub_set_graph.tsv | sort -k 1| uniq -c | sort -nr | awk '{ if ($1 >= 2) {print} }' | wc -l
+  471  cut -f 1 sub_set_graph.tsv | sort -k 1| uniq -c | sort -nr | awk '{ if ($1 >= 2) {print} }' 
+  472  cut -f 1 sub_set_graph.tsv | sort -k 1| uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }' 
+  473  awk '{print $1}' DirectionalInfluence.tsv | sort | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }'
+  474       45 3453306553
+  475  awk '{print $1}' DirectionalInfluence.tsv | sort | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }'
+  476  awk '{print $1}' sub_set_graph.tsv| sort | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }'
+  477  awk '{print $1}' sub_set_graph.tsv| sort | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }' | wc -l
+  478  awk '{print $1}' sub_set_graph.tsv| sort | uniq -c | sort -nr | awk '{ if ($1 >= 2) {print} }' | wc -l
+  479  cut -f 1 sub_set_graph.tsv | sort -k 1| uniq -c | sort -nr | awk '{ if ($1 >= 2) {print} }' 
+  480  awk '{print $1}' sub_set_graph.tsv| sort | uniq -c | sort -nr | awk '{ if ($1 >= 2) {print} }' | wc -l
+  481  awk '{print $1}' sub_set_graph.tsv| sort | uniq -c | sort -nr | awk '{ if ($1 >= 2) {print} }' 
+  482  cut -f 1 sub_set_graph.tsv | sort -k 1| uniq -c | sort -nr | awk '{ if ($1 >= 2) {print} }' 
+  483  cut -f 1 sub_set_graph.tsv | sort -k 1| uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }' > graph.csv 
+  484  ls
+  485  rm downloaded_tweets_extend_original_nolf2.tsv downloaded_tweets_extend_nolf2.ts
+  486  ls
+  487  cut -f 1 sub_set_graph.tsv | sort -k 1| uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }' > graph.tsv
+  488  cut -f 1 sub_set_graph.tsv | sort -k 1| uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }' 
+  489  cut -f 1,2 sub_set_graph.tsv | sort -k 1| uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }' 
+  490  cut -f 2 sub_set_graph.tsv | sort -k 1| uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }' 
+  491  sort -k 1 sub_set_graph.tsv | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }' 
+  492  sort -k 1 sub_set_graph.tsv | uniq -c | sort -nr | awk '{ if ($1 >= 2) {print} }' 
+  493  ls
+  494  rm graph.csv 
+  495  sort -k 1 sub_set_graph.tsv | uniq -c | sort -nr | awk '{ if ($1 >= 1) {print} }' 
+  496  ls
+  497  exit
+  498  clear
+  499  ls
+  500  cd gnuplot-5.4.5/
+  501  ls
+  502  cd src/
+  503  ;s
+  504  ls
+  505  make ws5.svg
+  506  plot ws5.svg
+  507  history
+  508  display ws5.svg 
+  509  cat ws5.svg 
+  510  cd
+  511  cd A3/
+  512  ls
+  513  cat sub_set_graph.tsv 
+  514  cut -f 2 sub_set_graph.tsv | sort -k 1| uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }' 
+  515  sort -k 1 sub_set_graph.tsv | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }' 
+  516  awk '{print $1}' sub_set_graph.tsv| sort | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }' 
+  517  awk '{print $1}' sub_set_graph.tsv| sort | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }' | wc -l
+  518  awk '{print $1}' sub_set_graph.tsv| sort | uniq -c | sort -nr | awk '{ if ($1 >= 5) {print} }' | wc -l
+  519  awk '{print $1}' sub_set_graph.tsv| sort | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }' > histogram.dat 
+  520  ls
+  521  cat histogram.dat 
+  522  clear
+  523  cp histogram.dat /home/amirali/gnuplot-5.4.5/src/
+  524  cd ../..
+  525  cd amirali/
+  526  cd gnuplot-5.4.5/src/
+  527  ls
+  528  binwidth=5
+  529  bin(x,width)=width*floor(x/width)
+  530  binwidth=5
+  531  bin(x,width)=width*floor(x/width)
+  532  bin(x, width)=width*floor(x/width)
+  533  bin(x,width)=width*floor(x/width)
+  534  gnuplot
+  535  ls *.dat
+  536  binwidth=5
+  537  bin(x,width)=idth*floor(x/width)
+  538  plot 'histogram.dat' using (bin($1,binwidth)):(1.0) smooth freq with boxes
+  539  touch question3.svg
+  540  nano question3.svg 
+  541  history
+  542  display question3.svg 
+  543  display ws5.svg 
+  544  nano ws5.svg 
+  545  plot 'histogram.dat' using (bin($1,binwidth)):(1.0) smooth freq with boxes
+  546  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2,6  | sort -k 2 -n | awk ' { t = $1; $1 = $2; $2 = t; print; } '> DirectionalInfluence.tsv 
+  547  exit
+  548  display gnuplot-5.4.5/src/ws5.svg 
+  549  display gnuplot-5.4.5/src/ws5.svg
+  550  cd gnuplot-5.4.5/
+  551  cd src/
+  552  display ws5.svg 
+  553  display gnuplot-5.4.5/src/ws5.svg
+  554  gnuplot
+  555  cd gnuplot-5.4.5/
+  556  gnuplot
+  557  cd gnuplot
+  558  cd src/
+  559  gnuplot
+  560  exit
+  561   grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 4,6  | awk ' { t = $1; $1 = $2; $2 = t; print; }'   > hashtags.tsv
+  562  awk '{print $1}' hashtags.tsv |tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 30
+  563  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 4,6  | awk ' { t = $1; $1 = $2; $2 = t; print; }'   > hashtags.tsv
+  564  awk '{print $2}' hashtags.tsv |tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 30
+  565  cd A3
+  566  script a4.txt
+  567  nano a4.txt 
+  568  script a4.txt
+  569  exit 
+  570  clear
+  571  tmux ls
+  572  tmux
+  573  ls
+  574  cd A3
+  575  nano a4.txt 
+  576  exit
+  577  gnuplot
+  578  cd gnuplot-5.4.5/
+  579  gnuplot
+  580  cd
+  581  gnuplot
+  582  cd gnuplot-5.4.5/
+  583  ls
+  584  instal;-sh
+  585  install-sh
+  586  gnuplot
+  587  cd
+  588  gnuplot
+  589  ls
+  590  rm gnuplot-5.4.5.tar.gz 
+  591  ls
+  592  cd gnuplot-5.4.5/
+  593  gnuplot
+  594  ./configure --disable-dependency-tracking
+  595  mkae
+  596  make
+  597  make check
+  598  se
+  599  gnuplot
+  600  make check
+  601  gnuplot
+  602  ./gnuplot
+  603  cd src/
+  604  ./gnuplot 
+  605  ls
+  606  display xyz.svg 
+  607  cat histogram.dat 
+  608  head histogram.dat 
+  609  display xyz.svg 
+  610  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2,6  | sort -k 2 -n | awk ' { t = $1; $1 = $2; $2 = t; pri 
+  611  cd 
+  612  cd A3/
+  613  ;s
+  614  ls
+  615  cat sub_set_graph.tsv 
+  616  grep "replied_to" downloaded_tweets_extend_nolf2_NOBOT.tsv | cut 2,4,6
+  617  grep "replied_to" downloaded_tweets_extend_nolf2_NOBOT.tsv | cut -f 2,4,6
+  618  grep "replied_to" downloaded_tweets_extend_nolf2_NOBOT.tsv | cut -f 2,4,6 > hashtags.tsv
+  619  sort -k 3 hashtags.tsv | uniq -c | sort -nr 
+  620  sort -k 3 hashtags.tsv | uniq -c | sort -nr | head -n 30
+  621  history
+  622  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2,6  | sort -k 2 -n | awk ' { t = $1; $1 = $2; $2 = t; print; }'
+  623  grep "replied_to" downloaded_tweets_extend_nolf2_NOBOT.tsv | cut -f 2,4,6  | sort -k 2 -n | awk ' { t = $1; $1 = $3; $3 = t; print; }'
+  624  grep "replied_to" downloaded_tweets_extend_nolf2_NOBOT.tsv | cut -f 2,4,6  | sort -k 2 -n | awk ' { t = $1; $1 = $3; $3 = t; print; }' | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' 
+  625  grep "replied_to" downloaded_tweets_extend_nolf2_NOBOT.tsv | cut -f 2,4,6  | sort -k 2 -n | awk ' { t = $1; $1 = $3; $3 = t; print; }' | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'  > hashtags.tsv 
+  626  awk '{print $1} ' hashtags.tsv 
+  627  grep "replied_to" downloaded_tweets_extend_nolf2_NOBOT.tsv | cut -f 2,4,6  | sort -k 2 -n | awk ' { t = $1; $1 = $3; $3 = t; print; }' | tr "," "\n" | tr [:upper:] [:lower:] | tr -d '\"' |tr -d '"\'  > hashtags.tsv 
+  628  head hashtags.tsv 
+  629  awk '{print $1} ' hashtags.tsv 
+  630  grep "replied_to" downloaded_tweets_extend_nolf2_NOBOT.tsv | cut -f 2,4,6  | sort -k 2 -n | awk ' { t = $1; $1 = $3; $3 = t; print; }' | tr "," "\n" | tr [:upper:] [:lower:] | tr -d '\"' |tr -d '"\'  > hashtags.tsv 
+  631  grep "replied_to" downloaded_tweets_extend_nolf2_NOBOT.tsv | cut -f 4,6   > hashtags.tsv 
+  632  head hashtags.tsv 
+  633  awk '{print $1} ' hashtags.tsv 
+  634  grep "replied_to" downloaded_tweets_extend_nolf2_NOBOT.tsv | cut -f 4,6  | awk ' { t = $1; $1 = $2; $2 = t; print; }'   > hashtags.tsv 
+  635  head hashtags.tsv 
+  636  sort -k 1 hashtags.tsv | uniq -c | sort -nr | head -n 10
+  637  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 4,6  | awk ' { t = $1; $1 = $2; $2 = t; print; }'   > hashtags.tsv 
+  638  sort -k 1 hashtags.tsv | uniq -c | sort -nr | head -n 10
+  639  head a3.txt 
+  640  cat a3.txt 
+  641  ls
+  642  h
+  643  cat sub_set_graph.tsv 
+  644  cat histogram.dat 
+  645  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 4,6  | awk ' { t = $1; $1 = $2; $2 = t; print; }'   > hashtags.tsv 
+  646  cut -f 2 hashtags.tsv | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 30
+  647  head hashtags.tsv 
+  648  sort -k 1 hashtags.tsv | uniq -c | sort -nr 
+  649  sort -k 1 hashtags.tsv | uniq -c | sort -nr | head -n 30
+  650  head histogram.dat 
+  651  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2,6  | awk ' { t = $1; $1 = $2; $2 = t; print; }'   > hashtags.tsv 
+  652  sort -k 1 hashtags.tsv | uniq -c | sort -nr | head -n 30
+  653  history
+  654  clear
+  655  ls
+  656  clear
+  657  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2,6  | awk ' { t = $1; $1 = $2; $2 = t; print; }'   > hashtags.tsv 
+  658  awk '{print $2}' hashtags.tsv | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 3
+  659  awk '{print $2}' hashtags.tsv | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 30
+  660  awk '{print $2}' hashtags.tsv | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort -k 2 | uniq -c | sort -nr | head -n 30
+  661  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 4,6  | awk ' { t = $1; $1 = $2; $2 = t; print; }'   > hashtags.tsv 
+  662  head hashtags.tsv 
+  663  awk '{print $2}' hashtags.tsv | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 3
+  664  awk '{print $2}' hashtags.tsv | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 30
+  665   tr "," "\n" hashtags.tsv | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 30
+  666  cat hashtags.tsv |  tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 30
+  667  awk '{print $1}' hashtags.tsv | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 30
+  668  cat histogram.dat 
+  669  clear
+  670  cd A3/
+  671  ls
+  672  head hashtags.tsv 
+  673  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 4,6  | awk ' { t = $1; $1 = $2; $2 = t; print; }'   > hashtags.tsv
+  674  head hashtags.tsv 
+  675  awk '{print $1}
+  676  awk '{print $1}'
+  677  awk '{print $1}' hashtags.tsv 
+  678  cat hashtags.tsv |  tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 30
+  679  awk '{print $2}' hashtags.tsv |tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 30 
+  680  awk '{print $2}' hashtags.tsv |tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr 
+  681  awk '{print $2}' hashtags.tsv |tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr > awk.tsv
+  682  cat hashtags.tsv |  tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 30 > cat.tsv
+  683  diff -c awk.tsv cat.tsv 
+  684  awk '{print $2}' hashtags.tsv |tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 30
+  685  awk '{print $1}' hashtags.tsv |tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 30
+  686  ls
+  687  head histogram.dat 
+  688  cat histogram.dat 
+  689  history
+  690  diff -u commonhashtags.tsv clusterhashtags.tsv 
+  691  history
+  692  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2,6  | sort -k 2 -n | awk ' { t = $1; $1 = $2; $2 = t; print; } '> 
+  693  cd A3/
+  694  head sub_set_graph.tsv 
+  695  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2,6  | sort -k 2 -n | awk ' { t = $1; $1 = $2; $2 = t; print; } '> sub_set_graph.tsv 
+  696  head sub_set_graph.tsv 
+  697  ls
+  698  clear
+  699  ls
+  700  cd A3/
+  701  ls
+  702  cat a3.txt 
+  703  ls
+  704  cat sub_set_graph.tsv 
+  705  cp sub_set_graph.tsv Q1.txt
+  706  ls
+  707  head Q1.txt 
+  708  cat Q1.txt 
+  709  nano a3.txt 
+  710  ls
+  711  nano a4.txt 
+  712  touch commonhashtags.tsv
+  713  nano commonhashtags.tsv 
+  714  cd
+  715  cd A1/
+  716  cd A2
+  717  cd
+  718  cd A2`
+  719  cd A2/
+  720  ls
+  721  nano a2.txt 
+  722  cd /home/amirali/A3/
+  723  nano commonhashtags.tsv 
+  724  touch clusterhashtags.tsv
+  725  nano a4.txt 
+  726  nano clusterhashtags.tsv 
+  727  dif -u commonhashtags.tsv clusterhashtags.tsv 
+  728  diff -u commonhashtags.tsv clusterhashtags.tsv 
+  729  diff -c commonhashtags.tsv clusterhashtags.tsv 
+  730  diff commonhashtags.tsv clusterhashtags.tsv 
+  731  script questions4.txt
+  732  nano questions4.txt 
+  733  ls
+  734  nano a4.txt 
+  735  cat questions4.txt >> a4.txt 
+  736  nano a4.txt 
+  737  clear
+  738  ls
+  739  rm awk.tsv cat.tsv 
+  740  rm clusterhashtags.tsv commonhashtags.tsv 
+  741  rm questions4.txt 
+  742  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2\,6  | awk ' { t = $1; $1 = $2; $2 = t; print; }'
+  743  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2,6  | sort | uniq -c | sort -nr awk ' { t = $1; $1 = $2; $2 = t; print; }'
+  744  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2,6  | sort | uniq -c | sort -nr |awk ' { t = $1; $1 = $2; $2 = t; print; }'
+  745  history
+  746  head sub_set_graph.tsv 
+  747  awk '{print $1}' sub_set_graph.tsv| sort | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }
+  748  awk '{print $1}' sub_set_graph.tsv| sort | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print}' }
+  749  awk '{print $1}' sub_set_graph.tsv| sort | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }'
+  750  awk '{print $1}' sub_set_graph.tsv| sort | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }' | wc -,
+  751  awk '{print $1}' sub_set_graph.tsv| sort | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }' | wc -l
+  752  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2,6  | sort -k 2 -n | awk ' { t = $1; $1 = $2; $2 = t; print; } '> sub_set_graph.tsv
+  753  awk '{print $1}' sub_set_graph.tsv| sort | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }'
+  754  awk '{print $1}' sub_set_graph.tsv| sort | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }' > Q2.txt
+  755  history
+  756   grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2,6  | sort -k 2 -n | awk ' { t = $1; $1 = $2; $2 = t; print; } '> sub_set_graph.tsv
+  757  cd A3/
+  758   grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2,6  | sort -k 2 -n | awk ' { t = $1; $1 = $2; $2 = t; print; } '> sub_set_graph.tsv
+  759  head sub_set_graph.tsv 
+  760  awk '{print $1}' sub_set_graph.tsv| sort | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }'
+  761  history
+  762  ls
+  763  script a2.txt
+  764  nano a22
+  765  nano a2.txt 
+  766  history
+  767  cd /home/amirali/gnuplot-5.4.5/
+  768  .gnuplot
+  769  cd src/
+  770  ./gnuplot 
+  771  display histogram.dat 
+  772  display xyz.svg 
+  773  cd
+  774  clear
+  775  cd /home/amirali/gnuplot-5.4.5/src/
+  776  ls
+  777  ./gnuplot 
+  778  la
+  779  ls
+  780  cd A3/
+  781  ls
+  782  head h
+  783  cat histogram.dat 
+  784  history
+  785  cat histogram.dat | awk ' { t = $1; $1 = $2; $2 = t; print; }'
+  786   awk histogram.dat  ' { t = $1; $1 = $2; $2 = t; print; }' 
+  787  cat histogram.dat | awk ' { t = $1; $1 = $2; $2 = t; print; }' > histogram.dat 
+  788  cat histogram.dat 
+  789  head histogram.dat 
+  790  awk histogram.dat ' { t = $1; $1 = $2; $2 = t; print; }'
+  791  awk ' { t = $1; $1 = $2; $2 = t; print; }'  histogram.dat
+  792  head histogram.dat 
+  793  clear
+  794  head histogram.dat 
+  795  ls
+  796  history
+  797   awk '{print $1}' sub_set_graph.tsv| sort | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }'
+  798   awk '{print $1}' sub_set_graph.tsv| sort | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }' | awk ' { t = $1; $1 = $2; $2 = t; print; }'
+  799   awk '{print $1}' sub_set_graph.tsv| sort | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }' | awk ' { t = $1; $1 = $2; $2 = t; print; }' > histogram.dat 
+  800  head histogram.dat 
+  801  clear
+  802  cd /home/amirali/gnuplot-5.4.5/src/
+  803  display xyz.svg 
+  804  cd
+  805  cd /home/amirali/A3`
+  806  cd /home/amirali/A3
+  807  ls
+  808  history 
+  809  cat histogram.dat 
+  810  clear
+  811  cd /home/amirali/gnuplot-5.4.5/src/
+  812  ./gnuplot 
+  813  display ffk.svg 
+  814  clear
+  815  cd A3/
+  816  cd
+  817  cd gnuplot-5.4.5/src/
+  818  display abc.svg 
+  819  clear
+  820  cd
+  821  ls
+  822  cd gnuplot-5.4.5/
+  823  c
+  824  cd
+  825  clear
+  826  cd A3/
+  827  ls
+  828  cut -f 2 histogram.dat > histogram1.dat
+  829  ls
+  830  cat histogram1.dat 
+  831  history
+  832  head sub_set_graph.tsv 
+  833   awk '{print $1}' sub_set_graph.tsv| sort | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }'
+  834   awk '{print $1}' sub_set_graph.tsv| sort |  awk '{ if ($1 >= 3) {print} }'
+  835   awk '{print $1}' sub_set_graph.tsv| sort |  awk '{ if ($1 >= 3) {print} }' > histogram.dat 
+  836  cat histogram
+  837  cat histogram.dat 
+  838  rm histogram1.dat 
+  839  cat histogram.dat 
+  840  clear
+  841  cd /home/amirali/gnuplot-5.4.5/src/
+  842  display abc.svg 
+  843  cd ../
+  844  cd 
+  845  cd A3/
+  846  cat histogram.dat 
+  847  cd gnuplot-5.4.5/src/
+  848  display ffk.svg 
+  849  cd
+  850  cd A3/
+  851  cat histogram.dat 
+  852  cd /home/amirali/gnuplot-5.4.5/
+  853  cd src/
+  854  ./gnuplot 
+  855  ls
+  856  display ffk.svg 
+  857  display fk.svg 
+  858  ./gnuplot 
+  859  display ymca.svg 
+  860  exit
+  861  cd A3/
+  862  ls
+  863  head a3.txt 
+  864  head a4.txt 
+  865  head a2.txt 
+  866  head a1
+  867  head histogram.dat 
+  868  clear
+  869  cd /home/amirali/gnuplot-5.4.5/src/
+  870  ls
+  871  ./gnuplot 
+  872  display gnu.svg 
+  873  exit
+  874  cd gnuplot-5.4.5/src/
+  875  display gnu.svg 
+  876  exit
+  877  cd gnuplot-5.4.5/src/
+  878  display gnu.svg 
+  879  ./gnuplot 
+  880  cd /home/amirali/A3/
+  881  ls
+  882  history 
+  883  awk '{print $1}' sub_set_graph.tsv| sort |  awk '{ if ($1 >= 3) {print} }'
+  884  awk '{print $1}' sub_set_graph.tsv| sort| uniq -c  |  awk '{ if ($1 >= 3) {print} }'
+  885  awk '{print $1}' sub_set_graph.tsv| sort| uniq -c |sort -nr |  awk '{ if ($1 >= 3) {print} }'
+  886  awk '{print $1}' sub_set_graph.tsv| sort| uniq |  awk '{ if ($1 >= 3) {print} }'
+  887  awk '{print $1}' sub_set_graph.tsv|  awk '{ if ($1 >= 3) {print} }'
+  888  awk '{print $1}' sub_set_graph.tsv|  awk '{ if ($1 >= 3) {print} }' > histogram.dat 
+  889  cd /home/amirali/gnuplot-5.4.5/src/
+  890  display gnu.svg 
+  891  ./gnuplot 
+  892  display first239.svg 
+  893  ./gnuplot 
+  894  display first239.svg 
+  895  ./gnuplot 
+  896  display histogram.svg 
+  897  ls
+  898  display gnu.svg 
+  899  ./gnuplot 
+  900  display histogram.svg 
+  901  reset
+  902  ./gnuplot 
+  903  display myhistogram2.svg 
+  904  display gnu.svg 
+  905  cp /home/amirali/gnuplot-5.4.5/src/gnu.svg /home/amirali/A3/
+  906  cd A3/
+  907  ls
+  908  rm downloaded_tweets_extend_nolf2_NOBOT.tsv downloaded_tweets_extend_original_nolf2_NOBOT.tsv 
+  909  ls
+  910  nano a3Commands.txt
+  911  mv Q1.txt Q1_graph.txt
+  912  head Q1_graph.txt 
+  913  ls
+  914  head Q2.txt 
+  915  mv Q2.txt Q2_graph.txt
+  916  ls
+  917  cat a2.txt 
+  918  ls
+  919  head a3
+  920  head a3.txt 
+  921  nano a1.txt
+  922  ls
+  923  cat a2.txt 
+  924  nano a3.txt 
+  925  ls
+  926  cat a2.txt >> a3.txt 
+  927  cat a3.txt 
+  928  nano a3.txt 
+  929  ls
+  930  cat a3Commands.txt >> a3.txt 
+  931  nano a3.txt 
+  932  head a4.txt 
+  933  cat a4.txt 
+  934  ls
+  935  cat a4.txt >> a3.txt 
+  936  rm hashtags.tsv
+  937  ls
+  938  rm a3Commands.txt a2.txt a4.txt 
+  939  ls
+  940  cat graph.tsv 
+  941  rm graph.tsv 
+  942  ls
+  943  head a3.txt 
+  944  nano sub_set_graph.tsv 
+  945  nano a3.txt 
+  946  em sub_set_graph.tsv 
+  947  rm sub_set_graph.tsv 
+  948  ls
+  949  git init
+  950  git add a3.txt gnu.svg histogram.dat Q1_graph.txt Q2_graph.txt 
+  951  git commit -m "all changes"
+  952  git branch -M main
+  953  git remote add origin https://github.com/amarashifar/A3.git
+  954  git push -u origin main
+  955  git pull
+  956  clear
+  957  ls
+  958  clear
+  959  ls
+  960  rm DirectionalInfluence.tsv 
+  961  ls
+  962  rm sub_set_graph.tsv 
+  963  ls
+  964  rm ws5.svg 
+  965  cd Pro
+  966  clear
+  967  ls 
+  968  mkdir CUSTOMERS
+  969  ls
+  970  exit
+  971  clear
+  972  ls
+  973  cut -f 2 amazon_reviews_us_Books_v1_02.tsv 
+  974  cut -f 2 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -nr 
+  975  cut -f 2 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c
+  976  cut -f 2 amazon_reviews_us_Books_v1_02.tsv | sort 
+  977  cut -f 2 amazon_reviews_us_Books_v1_02.tsv
+  978  cut -f 2 amazon_reviews_us_Books_v1_02.tsv | sort 
+  979  cut -f 2 amazon_reviews_us_Books_v1_02.tsv > cust_id.tsv
+  980  sort cust_id.tsv | uniq -c | sort -nr | head -n 20
+  981  sort cust_id.tsv | uniq -c | sort -nr | head -n 20 | cut -f 21
+  982  sort cust_id.tsv | uniq -c | sort -nr | head -n 20 | cut -f 2
+  983  sort cust_id.tsv | uniq -c | sort -nr > cust_id.tsv 
+  984  ls cust_id.tsv 
+  985  for i in {1...1000}; sed -n '{$i}p'
+  986  for i in {1...1000}; sed -n '{$i}p'; done
+  987  for i in {1...1000}; sed -n '{$i}p' cust_id.tsv; done
+  988  for i in {1...1000}; awk '{print $2}'|sed -n '{$i}p' cust_id.tsv; done
+  989  exit
+  990  clear
+  991  ls
+  992  exit
+  993  tmux attach -t homework
+  994  tmux ls
+  995  ls
+  996  head a3.txt 
+  997  ls
+  998  rm secondstep.csv 
+  999  clear
+ 1000  ls
+ 1001  head cy
+ 1002  head cust_id.tsv 
+ 1003  head 
+ 1004  cat cust_id.tsv 
+ 1005  ls
+ 1006  ckerar
+ 1007  clear
+ 1008  sort cust_id.tsv | uniq -c | sort -nr | head -n 20 | cut -f 2
+ 1009  cut -f 2 amazon_reviews_us_Books_v1_02.tsv 
+ 1010  cut -f 2 amazon_reviews_us_Books_v1_02.tsv | sort 
+ 1011  cut -f 2 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -nr > cust_id.tsv 
+ 1012  cat cust_id.tsv 
+ 1013  head cust_id.tsv 
+ 1014  for item in cust_id.tsv; do echo "customer: $i" ; done
+ 1015  for item in cust_id.tsv; do echo "customer: $i"| sed -n '{$i}p  ; done
+
+
+
+
+
+
+ 1016  for item in cust_id.tsv; do echo "customer: $i"| sed -n '{$i}p; done
+
+ 1017  for item in cust_id.tsv; do echo "customer: $item"; done
+ 1018  for f in cust_id.tsv ; do sed -n '{$i}p
+done
+for f in cust_id.tsv ; do sed -n '{$i}p'; done
+
+ 1019  for f in cust_id.tsv;; do echo "$f" ; done
+ 1020  for f in cust_id.tsv; do echo "$f" ; done
+ 1021  for read line ; do echo "$line"; done < cust_id.tsv 
+ 1022  clear
+ 1023  while read line; do echo "Line: $line"; done < cust_id.tsv 
+ 1024  while read line; do echo "Line: $line" | $line > customerID; done < cust_id.tsv 
+ 1025  while read line; do echo -e "$line\n" >> newTest.txt; done < cust_id.tsv 
+ 1026  ls
+ 1027  script ws5.txt
+ 1028  history > cmds.log
